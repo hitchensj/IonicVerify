@@ -1,0 +1,59 @@
+{
+  "firearms": [
+    {
+      "serialNumber": "12345678",
+      "itemTypeName": "HANDGUN",
+      "productDescription": "Smith & Wesson",
+      "inventorySerializedUserId": "49052314",
+      "accountableUser":"Kendrys Morales"
+    }, {
+      "serialNumber": "23456789",
+      "itemTypeName": "HANDGUN",
+      "productDescription": "Smith & Wesson",
+      "inventorySerializedUserId": "13829982",
+      "accountableUser":"Salvador Perez"
+    }, {
+      "serialNumber": "34567890",
+      "itemTypeName": "HANDGUN",
+      "productDescription": "Remington",
+      "inventorySerializedUserId": "69331394",
+      "accountableUser":"Eric Hosmer"
+    }, {
+      "serialNumber": "45678901",
+      "itemTypeName": "HANDGUN",
+      "productDescription": "Remington",
+      "inventorySerializedUserId": "96811526",
+      "accountableUser":"Omar Infante"
+    }, {
+      "serialNumber": "56789012",
+      "itemTypeName": "RIFLE",
+      "productDescription": "Kalashnikov",
+      "inventorySerializedUserId": "53163691",
+      "accountableUser":"Mike Moustakas"
+    }, {
+      "serialNumber": "67890123",
+      "itemTypeName": "RIFLE",
+      "productDescription": "Kalashnikov",
+      "inventorySerializedUserId": "50874142",
+      "accountableUser":"Alcides Escobar"
+    }, {
+      "serialNumber": "78901234",
+      "itemTypeName": "SHOTGUN",
+      "productDescription": "Ithaca",
+      "inventorySerializedUserId": "13930268",
+      "accountableUser":"Jarrod Dyson"
+    }, {
+      "serialNumber": "89012345",
+      "itemTypeName": "HANDGUN",
+      "productDescription": "HS Produkt",
+      "inventorySerializedUserId": "07680826",
+      "accountableUser":"Lorenzo Cain"
+    }, {
+      "serialNumber": "90123456",
+      "itemTypeName": "HANDGUN",
+      "productDescription": "Heckler & Koch GmbH",
+      "inventorySerializedUserId": "24814839",
+      "accountableUser":"Alex Gordon"
+    }
+  ]
+}

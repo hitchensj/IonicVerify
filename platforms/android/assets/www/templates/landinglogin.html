@@ -1,0 +1,64 @@
+<ion-view view-title="Verify" class="background-pagebody-common">
+  <ion-content>
+  	<ion-list class="background-pagebody-common">
+		<div class="item item-login-border item-image">
+			<br/>
+			<h2><b>Mobile FACTS Verify</b></h2>
+			<h4>Version 1.0.0</h4>
+			<img ng-src="img/verify_200x200.png" width="112px" height="112px"/>
+			<br/>
+		</div>
+		<div class="item item-login-border">
+			<div class="login-box">
+				<form ng-submit="doLogin()">
+					<label class="item item-input item-border background-sidebar-common">
+						<div class="row login-row">
+						  <div class="col col-90"><h3>Login</h3></div>
+						  <div class="col"><button class="fa fa-info-circle button-clear button-dark" ng-click="doInfo()"></button></div>
+						</div>	
+					</label>
+					<label class="item item-input item-border">
+						  <div class="row login-row">
+							<div class="col col-10">
+								<i class="fa fa-user"></i>
+							</div>
+							<div class="col col-90">
+								<input type="text" ng-model="loginData.username" placeholder="Username"/>
+							</div>
+						  </div>
+					</label>
+					<label class="item item-input item-border">
+						  <div class="row login-row">
+							<div class="col col-10">
+								<i class="fa fa-lock"></i>
+							</div>
+							<div class="col col-90">
+								<input type="password" ng-model="loginData.password" placeholder="Password"/>
+							</div>
+						  </div>
+					</label>
+					<div class="button-bar">
+						<button class="button button-block button-dark" ng-click="doPasswordHelp()"><i class="fa fa-key form-btn"></i></i> <h7 class="form-btn">&nbsp;Password Help</h7></button>
+						<button class="button button-block btn-primary" type="submit" ng-enter="doLogin()"><h7 class="form-btn">Login &nbsp;</h7><i class="fa fa-sign-in form-btn"></i></button>
+					</div>
+				</form> 
+			</div> 
+		</div>
+		<div class="item item-login-border">
+			<div class="item-text-wrap text-center"><h4>This is an official app of U.S. Customs and Border Protection. Law enforcement sensitive.</h4></div>
+		</div> 
+	</ion-list> 
+  </ion-content>
+  <ion-footer-bar align-title="center" class="background-pagebody-common">
+  	<!--div class="row">
+  		<div class="col"></div>
+  		<div class="col"-->
+			<div class="item-image">   	  
+				  <img src="img/CBP_logo_750x120.png"/>
+			</div>
+		</div>
+		<div class="col"></div>
+	<!--/div-->
+  </ion-footer-bar>
+</ion-view>
+

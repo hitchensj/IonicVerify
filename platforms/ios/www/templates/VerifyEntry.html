@@ -1,0 +1,73 @@
+<ion-view view-title="Entry">
+  <ion-content>
+    <h4 class="text-center padding">Verify Entry</h4>
+    
+    <form name="serialEntryForm" novalidate="" ng-submit="submitSerial(serialEntryForm)">
+		<div class="list list-inset">
+			<label class="item item-input">
+				<input name="numberInput" type="text" ng-model="recognizedText" placeholder="Enter Serial Number" ng-minlength="5" required value={{recognizedText}}>
+			</label>
+			
+			 <div class="padding">
+				<p ng-show="serialEntryForm.numberInput.$error.required">* Serial Number is required</p>
+			</div>
+	
+			<div class="button-bar">
+				<!-- 
+<button class="button button-block button-dark" ng-disabled="serialEntryForm.$invalid" type="submit"">
+					<h7 class="form-btn">Submit</h7>
+				</button>
+ -->
+ 				<button class="button button-block button-dark" ng-click="getFirearm()">
+ 					Submit
+ 				</button>
+			</div>
+		</div>
+	</form>
+	
+	<div id="buttonBar" style="padding-top: 5em;" class="button-bar padding">
+		<button class="button button-dark icon ion-ios-barcode-outline" ng-click="scanBarcode()">
+			&nbsp; Barcode
+		</button>
+
+		
+		<button class="button btn-primary icon ion-mic-a" ng-click="record()">
+			&nbsp; Record
+        </button>
+	</div>
+	
+<!-- 
+	<div class="card">
+		<div class="item item-text-wrap">
+		{{recognizedText}}
+		</div>
+	</div>
+ -->
+	
+<!-- 
+        <div class="list list-inset">
+          <label class="item item-input">
+            <i class="icon ion-speakerphone placeholder-icon"></i>
+            <input type="text" placeholder="Let me speak..." ng-model="data.speechText">
+          </label>
+        </div>
+        <button class="button button-full button-positive" ng-click="speakText()">
+          Speak!
+        </button>
+ 
+        <button class="button button-full button-positive icon ion-mic-a"ng-click="record()">
+          Record
+        </button>
+        <div class="card">
+          <div class="item item-text-wrap">
+            {{recognizedText}}
+          </div>
+        </div>
+ -->
+	
+  </ion-content>
+	<div class="bar bar-footer background-primary-common">
+		<div class="title">For Official Use Only</div>
+	</div>
+</ion-view>
+

@@ -1,0 +1,58 @@
+<ion-view view-title="Verification">
+  <ion-content>
+    <h4 class="text-center padding">Asset Verification</h4>
+    
+    <div class="list list-inset">
+  		<label class="item" ng-model="serialNumber" style="pointer-events: none;">
+    		Serial Number: &nbsp; {{firearm.serialNumber}}
+  		</label>
+  		<label class="item" ng-model="itemTypeName">
+    		Item: &nbsp; {{firearm.itemTypeName}}
+  		</label>
+  		<label class="item" ng-model="productDescription">
+    		Product Description: &nbsp; {{firearm.productDescription}}
+  		</label>
+  		<label class="item" ng-model="inventorySerializedUserId">
+    		Inventory Serialized User ID: &nbsp; {{firearm.inventorySerializedUserId}}
+  		</label>
+  		<label class="item" ng-model="accountableUser">
+    		User: &nbsp; {{firearm.accountableUser}}
+  		</label>
+	
+		<div id="buttonBar" class="button-bar" ng-show="showButtonBar">
+			<button class="button button-block button-dark" ng-click="hideButtons()">
+				<h7 class="form-btn">Verify</h7>
+			</button>
+			<a class="button button-block btn-primary" href="#/app/VerifyEntry">
+				<h7 class="form-btn">Cancel</h7>
+			</a>
+		</div>
+		
+		<div id="continueButton" ng-show="showContinueButton">
+		<br>
+			<h4 style="text-align:center;">Verification Complete</h4>
+			<br>
+			<button  ng-click="entryScreenReset()" class="button button-full button-dark"><i class="icon ion-plus-circled"></i>&nbsp; Verify Next Firearm</button>
+		</div>
+	</div>
+  </ion-content>
+	<div class="bar bar-footer background-primary-common">
+		<div class="title">For Official Use Only</div>
+	</div>
+</ion-view>
+
+<!-- Item
+:
+"Firearm"
+Make
+:
+"Smith & Wesson"
+Model
+:
+".45"
+Owner
+:
+"Kendrys Morales"
+serialNumber
+:
+"12345678" -->

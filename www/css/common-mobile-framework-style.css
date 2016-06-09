@@ -1,0 +1,259 @@
+/* Common framework CSS file. Override and add your own CSS if you like */
+
+body {
+  font-family: "robotoregular";
+  font-size: 12px;
+  line-height: 1.42857143;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "robotoregular";
+}
+
+/* CBP Common colors */
+.background-default-common {
+	background-color: #ffffff;
+}	
+
+.background-inverse-common {
+	background-color: transparent;
+}
+
+.background-primary-common {
+	background-color: #00416a;
+}
+
+.background-success-common {
+	background-color: #008000;
+}
+
+.background-info-common {
+	background-color: #1460aa;
+}
+
+.background-warning-common {
+	background-color: #f09511;
+}
+
+.background-danger-common {
+	background-color: #E00000;
+}
+
+.text-common {
+	color: #3e3e3e;
+}
+
+.link-common {
+	color: #0f4880;
+}
+
+.background-univheader-common {
+	background-color: #00416a;
+}
+
+.background-appheader-common {
+	background-color: #eeeeee;
+}
+
+.background-pagebody-common {
+	background-color: #ffffff
+}
+
+.background-sidebar-common {
+	background-color: #f5f5f5;
+}
+
+.border-default-common {
+	border-color: #8c8c8c
+}
+
+.border-inverse-common {
+	border-color: #8c8c8c
+}
+
+.border-primary-common {
+	border-color: #0A3055
+}
+
+.border-success-common {
+	border-color: #134d13
+}
+
+.border-info-common {
+	border-color: #0f4880
+}
+
+.border-warning-common {
+	border-color: #4a2e1f
+}
+
+.border-danger-common {
+	border-color: #AA0000
+}
+
+.item-login-border {
+  border-color: #fff;
+  margin-top: -5px;
+}
+
+.item-border {
+  border-color: #ddd;
+}
+
+.item-light {
+  border-color: #fff;
+}
+
+@media (min-width: 1024px) {
+	.item-image {
+	  padding: 0px 140px;
+	  text-align: center; }
+}
+
+@media (min-width: 1200px) {
+  .item-image {
+	  padding: 0px 330px;
+	  text-align: center; }
+}
+
+.login-box {
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login-header {
+  background-color: #f5f5f5; /* fallback color, place your own */
+
+  /* Gradients for modern browsers, replace as you see fit */
+  background-image: -moz-linear-gradient(top, #f5f5f5, #f5f5f5);
+  background-image: -ms-linear-gradient(top, #f5f5f5, #f5f5f5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f5f5f5);
+  background-image: -o-linear-gradient(top, #f5f5f5, #f5f5f5);
+  background-image: linear-gradient(top, #f5f5f5, #f5f5f5);
+  background-repeat: repeat-x;
+
+  /* IE8-9 gradient filter */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#f5f5f5', GradientType=0);
+  
+  height: 30px;
+}
+
+.login-row {
+	height: 37px;
+}
+
+.footer-gradient {
+  background-color: #f5f5f5; /* fallback color, place your own */
+
+  /* Gradients for modern browsers, replace as you see fit */
+  background-image: -moz-linear-gradient(top, #f5f5f5, #f5f5f5);
+  background-image: -ms-linear-gradient(top, #f5f5f5, #f5f5f5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f5f5f5));
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f5f5f5);
+  background-image: -o-linear-gradient(top, #f5f5f5, #f5f5f5);
+  background-image: linear-gradient(top, #f5f5f5, #f5f5f5);
+  background-repeat: repeat-x;
+
+  /* IE8-9 gradient filter */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#f5f5f5', GradientType=0);
+
+}
+
+.item{
+    background-color: #ffffff
+}
+
+@media (min-width: 360px) {
+  .bar-footer {
+	height: 60px;
+  }
+}
+@media (min-width: 768px) {
+  .bar-footer {
+	height: 125px;
+  }
+}
+@media (min-width: 1200px) {
+  .bar-footer {
+    width: 100%;
+  }
+}
+
+.navbar-icon {
+  color : #f5f5f5;
+}
+
+.navbar-icon:hover,
+.navbar-icon:focus {
+  color : #f5f5f5;
+}
+
+.bar-common{
+
+  background: #00416a; /* Old browsers */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00416a), color-stop(50%,#00416a)) !important; /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top,  #00416a 0%, #00416a 100%) !important; /* Chrome10+,Safari5.1+ */
+
+  background: linear-gradient(to bottom,  #00416a 0%,#00416a 100%) !important; /* W3C */
+  padding: 0 !important;
+}
+
+.form-btn {
+	font-size: 14px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-image: -webkit-linear-gradient(top, #b4b4b4 0%, #b4b4b4 100%);
+  background-image:      -o-linear-gradient(top, #b4b4b4 0%, #b4b4b4 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b4b4b4), to(#b4b4b4));
+  background-image:         linear-gradient(to bottom, #b4b4b4 0%, #b4b4b4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4b4b4', endColorstr='#b4b4b4', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #b4b4b4;
+  color: #444;
+}
+
+.button-custom{
+  width: 40px;
+  color: #fff !important;
+  background: #207cca !important;
+  top: 0!important;
+  right: 0!important;
+  bottom: 0 !important;
+  border-radius: 0 !important;
+}
+
+
+
+.title {
+	color:#fff !important;
+}
+
+option {
+  background:#444;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+:focus {
+  outline:none;
+}
